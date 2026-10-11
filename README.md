@@ -41,7 +41,21 @@ HCC is a leading cause of cancer death, and it's usually caught late because the
 - Enrichment analysis pointed to cancer-relevant pathways (PI3K-Akt, MAPK signaling) as likely mechanisms
 
 ## Tools used
-R, Python, limma, survival/lifelines, clusterProfiler, DAVID, networkx
+R, Python, limma, survival/lifelines, clusterProfiler, DAVID, networkx (published analysis); Python, pandas, SciPy, lifelines (reproduction notebook)
+
+## Reproduce the analysis
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ToobaAwais/HCC-miRNA-Biomarker-Analysis/blob/main/notebooks/hcc_mirna_reproduction.ipynb)
+
+[`notebooks/hcc_mirna_reproduction.ipynb`](notebooks/hcc_mirna_reproduction.ipynb) re-runs the core analysis from public data in one click (*Runtime → Run all*, about 10 minutes):
+
+1. Downloads TCGA-LIHC miRNA-seq and clinical data from the GDC API
+2. Tumour vs adjacent-normal differential expression (volcano plot, heatmap)
+3. Overall survival: Kaplan-Meier (median split) and Cox regression per miRNA
+4. Tumour stage and metastasis subgroup analysis
+5. Downloads serum miRNA data (GSE113740) from GEO: HCC vs non-cancer controls, plus AFP and stage associations where annotated
+
+Tables are saved to `results/` and figures to `plots/`. This notebook is an independent Python re-implementation; it uses Welch's t-test with Benjamini–Hochberg correction in place of limma-trend, so individual numbers can differ slightly from the published tables.
 
 ## Data availability
 All data are public: TCGA-LIHC via the [GDC Data Portal](https://portal.gdc.cancer.gov/) and serum miRNA data from [GEO GSE113740](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113740). No patient-identifiable data are used.
