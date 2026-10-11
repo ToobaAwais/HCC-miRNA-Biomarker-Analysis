@@ -43,10 +43,5 @@ HCC is a leading cause of cancer death, and it's usually caught late because the
 ## Tools used
 R, Python, limma, survival/lifelines, clusterProfiler, DAVID, networkx
 
-## Repo contents
-- `/code` — analysis scripts
-- `/plots` — key visualizations (volcano plots, heatmaps, survival curves)
-- `/results` — output tables
-
----
-*This project uses only publicly available, de-identified data (TCGA, GEO). Built as an independent bioinformatics project to demonstrate end-to-end NGS/omics data analysis.*
+## Data availability
+All data are public: TCGA-LIHC via the [GDC Data Portal](https://portal.gdc.cancer.gov/) and serum miRNA data from [GEO GSE113740](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE113740). No patient-identifiable data are used.

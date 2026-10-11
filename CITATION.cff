@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the article below."
+title: "HCC-miRNA-Biomarker-Analysis"
+authors:
+  - family-names: Mujtaba
+    given-names: Tooba
+preferred-citation:
+  type: article
+  title: "Integrative analysis of tissue and circulating miRNAs as biomarkers for progression and survival in hepatocellular carcinoma"
+  authors:
+    - {family-names: Jabri, given-names: Abdullah}
+    - {family-names: Mhannayeh, given-names: Abdulaziz}
+    - {family-names: Alsharif, given-names: Mohamed}
+    - {family-names: Taftafa, given-names: Bader}
+    - {family-names: Mujtaba, given-names: Tooba}
+    - {family-names: Akbar, given-names: Arshiya}
+    - {family-names: Abu-zaid, given-names: Ahmed}
+    - {family-names: Mir, given-names: Tanveer Ahmad}
+    - {family-names: Khan, given-names: Mohammad Imran}
+    - {family-names: Ahmed, given-names: Firoz}
+    - {family-names: Arora, given-names: Itika}
+    - {family-names: Yaqinuddin, given-names: Ahmed}
+  journal: "Non-coding RNA Research"
+  volume: 16
+  start: 167
+  end: 177
+  year: 2026
+  doi: "10.1016/j.ncrna.2025.11.002"
