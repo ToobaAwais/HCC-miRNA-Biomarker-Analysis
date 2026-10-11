@@ -2,6 +2,23 @@
 
 Integrative bioinformatics analysis of tissue and serum microRNAs (miRNAs) as biomarkers for hepatocellular carcinoma (HCC) progression and survival, using public data from TCGA and GEO.
 
+## Publication
+Jabri A, Mhannayeh A, Alsharif M, Taftafa B, **Mujtaba T**, Akbar A, Abu-zaid A, Mir TA, Khan MI, Ahmed F, Arora I, Yaqinuddin A.
+**Integrative analysis of tissue and circulating miRNAs as biomarkers for progression and survival in hepatocellular carcinoma.**
+*Non-coding RNA Research*, 16, 167–177 (2026). [doi:10.1016/j.ncrna.2025.11.002](https://doi.org/10.1016/j.ncrna.2025.11.002)
+
+```bibtex
+@article{jabri2026hcc,
+  title   = {Integrative analysis of tissue and circulating miRNAs as biomarkers for progression and survival in hepatocellular carcinoma},
+  author  = {Jabri, Abdullah and Mhannayeh, Abdulaziz and Alsharif, Mohamed and Taftafa, Bader and Mujtaba, Tooba and Akbar, Arshiya and Abu-zaid, Ahmed and Mir, Tanveer Ahmad and Khan, Mohammad Imran and Ahmed, Firoz and Arora, Itika and Yaqinuddin, Ahmed},
+  journal = {Non-coding RNA Research},
+  volume  = {16},
+  pages   = {167--177},
+  year    = {2026},
+  doi     = {10.1016/j.ncrna.2025.11.002}
+}
+```
+
 ## Why this matters
 HCC is a leading cause of cancer death, and it's usually caught late because there aren't good non-invasive biomarkers for early detection. This project looks for miRNA signatures — in both tumor tissue and blood serum — that could flag disease progression earlier and more reliably than current markers.
 
